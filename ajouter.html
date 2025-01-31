@@ -36,33 +36,36 @@
 
 
 
+
       <section class="section">
  <form id="addRecipeForm">
             <h1 class="text-center my-5">Ajouter un nouveau Film</h1> 
             <div class="mb-3">
-                <label for="recipeTitle" class="form-label">Nom de Film</label>
-                <input type="text" class="form-control" id="recipeTitle" required>
+                <label for="" class="form-label" >Nom de Film</label>
+                <input type="text" class="form-control" id="nomFilm" required>
             </div>
             <div class="mb-3">
-                <label for="recipeDescription" class="form-label">Description</label>
-                <textarea class="form-control" id="recipeDescription" rows="3" required></textarea>
+              <label for="" class="form-label" >Annee</label>
+              <input type="text" class="form-control" id="anneeFilm" required>
+          </div>
+            <div class="mb-3">
+                <label for="" class="form-label" >Description</label>
+                <textarea class="form-control" id="Description" rows="3" required></textarea>
             </div>
             <div class="mb-3">
-                <label for="recipeCategory" class="form-label">Type</label>
-                <select class="form-select" id="recipeCategory" required>
-                    <option value="Entée">Action</option>
-                    <option value="Plat-Principal">drama</option>
-                    <option value="Dessert">fantasy</option>
-                    <option value="Entée">action</option>
-                    <option value="Plat-Principal">drama</option>
-                    <option value="Dessert">fantasy</option>
+                <label for="" class="form-label" >Type</label>
+                <select class="form-select" id="type" required>
+                    <option value="Action">Action</option>
+                    <option value="drama">drama</option>
+                    <option value="fantasy">fantasy</option>
+                 
                 </select>
             </div>
             <div class="mb-3">
-                <label for="recipeImage" class="form-label">URL de Film</label>
-                <input type="text" class="form-control" id="recipeImage" required>
+                <label for="" class="form-label" >URL de Film</label>
+                <input type="text" class="form-control" id="URL" required>
             </div>
-            <button type="submit" class="btn" id="btn-ajouter">Ajouter le Film</button>
+            <button type="submit" class="btn" id="btn-ajouter"  >Ajouter le Film</button>
         </form>
     </section>
 
@@ -78,6 +81,6 @@
       <P class="footer">Copyright © 2025 Fmovies.to. All Rights Reserved</P>
     </footer>
 
-    <script defer src="/movie.js"></script>
+    <script src="/movie.js"></script>
 </body>
 </html>
